@@ -1,0 +1,27 @@
+{
+  "name": "symfony-helper",
+  "version": "0.0.1",
+  "description": "Awesome symfony helper tool",
+  "main": "./lib/index.js",
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "symfony": "bin/test-module.js"
+  },
+  "keywords": [
+    "symfony",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-clear": "^1.0.4",
+    "colors": "^1.1.2",
+    "fs-extra": "^0.26.7",
+    "inquirer": "^1.0.0",
+    "moment": "^2.12.0",
+    "shelljs": "^0.6.0"
+  }
+}
