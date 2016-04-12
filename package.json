@@ -1,11 +1,13 @@
 {
   "name": "symfony-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Awesome symfony helper tool",
   "main": "./lib/index.js",
   "preferGlobal": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*",
+    "coveralls": "npm bin /istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/* && node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
   "bin": {
     "symfony": "bin/test-module.js"
@@ -14,8 +16,10 @@
     "symfony",
     "cli"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "michaeldegroot"
+  },
+  "license": "MIT",
   "dependencies": {
     "cli-clear": "^1.0.4",
     "colors": "^1.1.2",
@@ -23,5 +27,13 @@
     "inquirer": "^1.0.0",
     "moment": "^2.12.0",
     "shelljs": "^0.6.0"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "assert-plus": "^1.0.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }
