@@ -18,6 +18,7 @@ ___
  - Install and dump assets
  - composer install (and automatic .lock file removal)
  - Grunt (if Gruntfile.js is present)
+ - Will catch errors from the selected commands
 
 **More features will be added in future versions, check back later :)**
 ___
@@ -32,9 +33,8 @@ ___
     
 ___
 ### Roadmap:
- - Catch errors from the executed commands
+
  - More commands
- - 
  
 
 ___
