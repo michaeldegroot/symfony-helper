@@ -28,7 +28,7 @@ ___
 
 
 ##### 2. Do awesome stuff
-    symfony
+    symhelp
 *Remember to execute the command in the root folder of your symfony project (where composer.json is located)*
     
 ___
