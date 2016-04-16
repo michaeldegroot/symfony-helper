@@ -1,4 +1,4 @@
-[![](https://nodei.co/npm/symfony-helper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/socket-anti-spam)     
+[![](https://nodei.co/npm/symfony-helper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/symfony-helper)     
 [![](https://david-dm.org/michaeldegroot/symfony-helper.svg "deps") ](https://david-dm.org/michaeldegroot/symfony-helper "david-dm")
 [![](https://travis-ci.org/michaeldegroot/symfony-helper.svg?branch=master "testing") ](https://travis-ci.org/michaeldegroot/symfony-helper "travis-ci")
 [![](https://coveralls.io/repos/michaeldegroot/symfony-helper/badge.svg?branch=master&service=github)](https://coveralls.io/github/michaeldegroot/symfony-helper?branch=master)
