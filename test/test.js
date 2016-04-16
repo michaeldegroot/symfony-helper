@@ -1,18 +1,25 @@
 var assert = require('assert');
 var assert = require('assert-plus');
-var myApp = require('.././lib/index.js');
 var fs = require('fs');
 var path = require('path');
 
-myApp.workingDir = __dirname;
-myApp.testing = true;
-
 describe('Symfony >= 3.0.0', function() {
    it('Copy symfony3.json -> composer.json', function(done) {
+    var myApp = require('.././lib/index.js');
+    myApp.workingDir = __dirname;
     copyFile(path.join(__dirname,'symfony3.json'),path.join(__dirname,'composer.json'), function(err){
       if(err) throw new Error(err);
       done();
     });
+   });
+   it('Start program', function(done) {
+    var myApp = require('.././lib/index.js');
+    myApp.workingDir = __dirname;
+    this.timeout(20000);
+    myApp.main();
+    setTimeout(function(){
+      done();
+    },10000);
    });
 });
 
