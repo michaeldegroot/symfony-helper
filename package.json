@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",
-    "fs-extra": "^0.27.0",
+    "fs-extra": "^0.28.0",
     "inquirer": "^1.0.0",
     "jsonfile": "^2.2.3",
     "moment": "^2.12.0",
