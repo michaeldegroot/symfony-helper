@@ -35,6 +35,7 @@ ___
 ### Roadmap:
 
  - More commands
+ - Realtime data about project in the main menu
  
 
 ___
