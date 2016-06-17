@@ -20,9 +20,7 @@
     "symfony",
     "cli"
   ],
-  "author": {
-    "name": "michaeldegroot"
-  },
+  "author": "Michael de Groot <specamps@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",
