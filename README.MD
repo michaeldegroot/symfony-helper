@@ -26,6 +26,7 @@ ___
 -   Clear cache (dev, prod, all)
 -   Install and dump assets
 -   Composer install (and automatic .lock file removal)
+-   Doctrine (Load fixtures, Generate entities, Create database)
 -   Grunt (if Gruntfile.js is present)
 -   Will catch errors from the selected commands
 
