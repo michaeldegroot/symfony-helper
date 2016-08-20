@@ -51,7 +51,6 @@ ___
 
 ### Roadmap
 
--   Doctrine (generate entities)
 -   More commands
 
 ___
