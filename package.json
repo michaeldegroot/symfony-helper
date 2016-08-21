@@ -33,6 +33,7 @@
     "cli-color": "^1.1.0",
     "fs-extra": "^0.30.0",
     "moment": "^2.14.1",
-    "right-pad": "^1.0.1"
+    "right-pad": "^1.0.1",
+    "shelljs": "^0.7.3"
   }
 }
