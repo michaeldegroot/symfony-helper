@@ -15,7 +15,7 @@ ___
 
 *Autocomplete symfony commands via easy to remember sentences*
 
-![preview](http://i.imgur.com/hyokF9Z.png "Preview")
+![preview](http://i.imgur.com/4t34JNr.gif "Preview")
 
 ___
 
