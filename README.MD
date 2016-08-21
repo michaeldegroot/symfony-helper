@@ -13,21 +13,18 @@ ___
 
 ## Awesome symfony helper tool
 
-*No more typing commands, arrow keys to*
-*navigate a menu and choose the command of your liking*
+*Autocomplete symfony commands via easy to remember sentences*
 
-![preview](http://i.imgur.com/BLezsZR.png "Preview")
+![preview](http://i.imgur.com/hyokF9Z.png "Preview")
 
 ___
 
 ## Features
 
--   Fully working menu
 -   Clear cache (dev, prod, all)
 -   Install and dump assets
--   Composer install (and automatic .lock file removal)
--   Doctrine (Load fixtures, Generate entities, Create database)
--   Grunt (if Gruntfile.js is present)
+-   Composer install
+-   Doctrine (Create/Update database)
 -   Will catch errors from the selected commands
 
 **More features will be added in future versions, check back later :)**
