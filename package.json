@@ -1,6 +1,6 @@
 {
   "name": "symfony-helper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Awesome symfony helper tool",
   "main": "./lib/index.js",
   "preferGlobal": "true",
@@ -32,7 +32,9 @@
     "cli-autocomplete": "^0.3.0",
     "cli-color": "^1.1.0",
     "fs-extra": "^0.30.0",
+    "is-online": "^5.1.2",
     "moment": "^2.14.1",
+    "npm-registry-client": "^7.1.2",
     "right-pad": "^1.0.1",
     "shelljs": "^0.7.3",
     "update-notifier": "^1.0.2",
