@@ -10,4 +10,4 @@ describe('Test suite', function() {
     var myApp = require('.././lib/index.js')
     done()
   })
-}
+})

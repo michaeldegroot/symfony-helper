@@ -24,7 +24,8 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.3.0",
-    "assert-plus": "^1.0.0"
+    "assert-plus": "^1.0.0",
+    "mocha": "^3.0.2"
   },
   "dependencies": {
     "cli-autocomplete": "^0.3.0",
