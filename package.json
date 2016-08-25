@@ -1,6 +1,6 @@
 {
   "name": "symfony-helper",
-  "version": "1.0.5b",
+  "version": "1.0.5c",
   "description": "Awesome symfony helper tool",
   "main": "./lib/index.js",
   "preferGlobal": "true",
