@@ -1,6 +1,6 @@
 {
   "camelcase": true,
-  "curly": true,
+  "curly": false,
   "eqeqeq": true,
   "freeze": true,
   "indent": 2,
@@ -13,6 +13,10 @@
   "funcscope": true,
   "node": true,
   "esversion": 6,
+  "jquery": true,
   "asi": true,
-  "esnext": true
+  "bitwise": true,
+  "eqeqeq": true,
+  "forin": true,
+  "immed": false,
 }

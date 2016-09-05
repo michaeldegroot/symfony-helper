@@ -10,7 +10,7 @@
     "coveralls": "npm bin /istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/* && node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
   "bin": {
-    "symhelp": "bin/test-module.js"
+    "symhelp": "bin/run.js"
   },
   "repository": {
     "type": "git",

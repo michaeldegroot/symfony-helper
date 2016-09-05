@@ -4,7 +4,13 @@ node_js:
   - "6.0"
   - "5.0"
   - "4.5"
-after_script: NODE_ENV=test istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/* && node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info
+os:
+  - linux
+  - osx
+after_script: 
+  - NODE_ENV=test istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/* && node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info
+  - npm install -g .
+  - symhelp
 before_install:
   - sudo apt-get -y install build-essential libxml2-dev
   - sudo add-apt-repository ppa:eugenesan/ppa -y
