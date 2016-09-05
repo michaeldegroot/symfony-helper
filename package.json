@@ -29,7 +29,7 @@
     "mocha": "^3.0.2"
   },
   "dependencies": {
-    "cli-autocomplete": "^0.3.0",
+    "cli-autocomplete": "^0.4.0",
     "cli-color": "^1.1.0",
     "fs-extra": "^0.30.0",
     "is-online": "^5.1.2",
