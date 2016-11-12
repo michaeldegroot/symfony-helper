@@ -3,7 +3,7 @@
 [![](https://david-dm.org/michaeldegroot/symfony-helper.svg "deps") ](https://david-dm.org/michaeldegroot/symfony-helper "david-dm")
 [![](https://travis-ci.org/michaeldegroot/symfony-helper.svg?branch=master "testing") ](https://travis-ci.org/michaeldegroot/symfony-helper "travis-ci")
 [![](https://coveralls.io/repos/michaeldegroot/symfony-helper/badge.svg?branch=master&service=github)](https://coveralls.io/github/michaeldegroot/symfony-helper?branch=master)
-![](https://img.shields.io/badge/Node-%3E%3D0.11-green.svg)
+![](https://img.shields.io/badge/Node-%3E%3D4.0-green.svg)
 ![](https://img.shields.io/npm/dt/symfony-helper.svg)
 ![](https://img.shields.io/npm/l/express.svg)
 
