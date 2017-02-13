@@ -37,7 +37,7 @@
     "npm-registry-client": "^7.1.2",
     "right-pad": "^1.0.1",
     "shelljs": "^0.7.3",
-    "update-notifier": "^1.0.2",
+    "update-notifier": "^2.0.0",
     "walk": "^2.3.9"
   }
 }
